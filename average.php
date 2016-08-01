@@ -2,7 +2,6 @@
 $fp=fopen("d:/PhpstormProjects/data/log.txt","r");
 $arrSum=[];
 $arrNum=[];
-$aver=array();
 while(feof($fp)!=true){
     $row=trim(fgets($fp));
     $arr=explode(" ",$row);
